@@ -1,0 +1,14 @@
+#home-section{
+    background-image: url(images/tact.jpg);
+    background-size: cover;
+}
+
+.contact form{
+    border: none;
+    width: 100%;
+}
+@media (min-width:1250px){
+    .contact form{
+        width: 50%;
+    }
+}

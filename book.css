@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+header{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width:100%;
+    position:fixed;
+    z-index: 99;
+    background-color:rgb(23, 23, 23);
+}
+@media (min-width:750px){
+   header{
+       
+       padding: 20px;
+   }
+}
+@media (min-width:990px){
+    header{
+       
+        padding: 35px;
+    }
+ }
+ @media (min-width:1250px){
+    header{
+       
+        padding: 1px;
+        padding-left: 20px;
+    }
+ }
+body{
+    background-color:rgb(2, 9, 7);
+    background-color:rgb(0, 0, 0);
+}
+
+.container-b{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+
+}
+@media (min-width:750px){
+    .container-b{
+    
+        width: 90%;
+    }
+}
+.container-b div{
+    width:100%;
+    margin-bottom: 20px;
+}
+.container-b .bname{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    font-size: 1.5em;
+    margin-top: 20%;
+    color: lightgray;
+    font-family: 'Staatliches', cursive;
+
+
+    
+}
+@media (min-width:750px){
+    .container-b .bname{
+    
+        font-size: 3em;
+    }
+}
+@media (min-width:990px){
+    .container-b .bname{
+    
+        font-size: 3.5em;
+    }
+}
+@media (min-width:1250px){
+    .container-b .bname{
+        margin-top: 10%;
+        font-size: 2em;
+    }
+}
+
+.bname span{
+    display: block;
+    color: grey;
+    font-size: .7em;
+    padding-top: 10px;
+}
+span .span{
+    color: rgb(149, 255, 0);
+    color: #ff0;
+    
+}
+
+.container-b .dbook{
+    width: 50%;
+
+    
+}
+@media (min-width:1250px){
+    .container-b .dbook{
+        width: 20%;
+    }
+}
+.container-b .dbook img{
+    box-shadow: rgba(121, 123, 0, 0.392) 0px 1px 4px, rgb(0, 0, 0) 0px 0px 0px 3px;
+    width: 100%;
+
+
+}
+
+.download button{
+    padding:10px;
+    width: 100%;
+    background: rgb(149,225,0);
+    background: #ff0;
+    border: 1px solid;
+    color:rgb(4, 4, 4);
+    font-weight:900;
+    margin: auto;
+    font-size: 1.2em;
+    font-family: 'Staatliches', cursive;
+
+
+}
+.download button:hover{
+     background-color: chartreuse;
+}
+@media (min-width:750px){
+    .download button{
+        font-size: 2.2em;
+    }
+}
+@media (min-width:990px){
+    .download button{
+        font-size: 3em;
+    }
+}
+@media (min-width:1250px){
+    .download button{
+        font-size: 1.5em;
+    }
+}
+button i{
+padding-right: 10px;
+
+}
+
+
+.container-b .des{
+    color: grey;
+    width: 90%;
+    margin: auto;
+    
+
+    
+
+}
+@media (min-width:750px){
+    .container-b .des{
+        font-size: 1.5em;
+        width: 80%;
+    }
+}
+@media (min-width:990px){
+    .container-b .des{
+        font-size: 2em;
+        width: 80%;
+    }
+}
+@media (min-width:1250px){
+    .container-b .des{
+        font-size: 1.2em;
+        width: 50%;
+    }
+}
+
+.container-b .des .read{
+    display: none;
+    color: gray;
+    
+}
+
+.container-b .des button{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left:15px;
+    background: none;
+    color:rgb(149, 255, 0);
+    color: #ff0;
+
+    border: 1px solid;
+}
+@media (min-width:750px){
+    .container-b .des button{
+        font-size: .9em;
+    }
+}
+@media (min-width:990px){
+    .container-b .des button{
+        font-size: 1em;
+        padding: 15px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+@media (min-width:1250px){
+    .container-b .des button{
+        font-size: .8em;
+        padding: 8px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+
+.container-b .bio-info{
+    color:lightgrey;
+    margin-top: 50px;
+
+}
+@media (min-width:750px){
+    .container-b .bio-info{
+      font-size: 1.1em;
+       
+    }
+}
+
+.container-b .bio-info div {
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+  
+    
+    
+
+}
+.bio-info span{
+    color: rgb(149, 255, 0);
+    color: #ff0;
+    width:25%;
+    display: block;
+    font-style: normal;
+    
+
+}
+footer i{
+    color: #ff0;
+}
